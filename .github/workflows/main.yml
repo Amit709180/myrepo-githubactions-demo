@@ -1,5 +1,9 @@
 name: My First Workflow
 on: 
+ push:
+  branches: 
+      - main
+      - dev
     workflow_dispatch: # manual trigger
 jobs:
     job-name-1:
