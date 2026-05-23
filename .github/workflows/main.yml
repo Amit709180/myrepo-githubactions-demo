@@ -4,7 +4,7 @@ on:
   branches: 
       - main
       - dev
-    workflow_dispatch: # manual trigger
+ workflow_dispatch: # manual trigger
 jobs:
     job-name-1:
         # where the job will be run - agent/runner
